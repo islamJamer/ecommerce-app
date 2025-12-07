@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
+import Typography from "@mui/material/Typography";
 
 export default function Cart() {
   return (
-    <div>
-      cart
-    </div>
-  )
+    <Typography variant="p" gutterBottom>
+      Cart Page
+    </Typography>
+  );
 }
